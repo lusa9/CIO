@@ -1,13 +1,381 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  --accent: #201F4B;
+  --darkgray: #5A5A5A;
+  --gray: #979797;
+  --lightgray: #D8D8D8;
+  --light: #F6F6F6;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0px 0px;
+  padding: 0px 0px;
+  font-weight: 400;
+}
+
+/* Font */
+h1 {
+  font-size: 34px;
+}
+
+h2 {
+  font-size: 26px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 15px;
+}
+
+h5 {
+  font-size: 12px;
+}
+
+h6 {
+  font-size: 10px;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+/* Input */
+.no-background {
+  background: none;
+}
+
+/* Color */
+.white {
+  color: white;
+}
+
+.darkgray {
+  color: var(--darkgray);
+}
+
+.gray {
+  color: var(--gray);
+}
+
+.lightgray {
+  color: var(--lightgray);
+}
+
+.bg-darkgray {
+  background-color: var(--darkgray);
+}
+
+.bg-gray {
+  background-color: var(--gray);
+}
+
+.bg-lightgray {
+  background-color: var(--lightgray);
+} 
+
+.bg-light {
+  background-color: var(--light);
+} 
+
+.bg-accent {
+  background-color: var(--accent);
+}
+
+.debug {
+  background-color: yellow;
+}
+
+.debug2 {
+  background-color: green;
+}
+
+.debug3 {
+  background-color: orange;
+}
+
+/* Component Styles */
+
+.button, .button1, .button2 {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding: 0px;
+  margin: 0px;
+  border-radius: 5px;
+}
+
+.button1 {
+  color: black;
+  background-color: var(--lightgray);
+}
+
+.button2 {
+  color: var(--darkgray);
+  background-color: transparent;
+}
+
+/* Layout */
+
+.d-flex {
+  display: flex;
+}
+
+.flex-direction-column {
+  flex-direction: column;
+}
+
+.flex-grow-1 {
+  flex-grow: 1;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.w-5 {
+  width: 5px;
+}
+
+.h-5 {
+  height: 5px;
+}
+
+.w-10 {
+  width: 10px;
+}
+
+.h-10 {
+  height: 10px;
+}
+
+.w-20 {
+  width: 20px;
+}
+
+.h-20 {
+  height: 20px;
+}
+
+.w-40 {
+  width: 40px;
+}
+
+.h-40 {
+  height: 40px;
+}
+
+.h-50 {
+  height: 50px;
+}
+
+.h-60 {
+  height: 60px;
+}
+
+.h-80 {
+  height: 80px;
+}
+
+.w-80 {
+  width: 80px;
+}
+
+.h-100 {
+  height: 100px;
+}
+
+.w-100 {
+  width: 100px;
+}
+
+.h-120 {
+  height: 120px;
+}
+
+.w-120 {
+  width: 120px;
+}
+
+.w-min-input {
+  min-width: 180px;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.align-items-end {
+  align-items: flex-end;
+}
+
+.align-self-center {
+  align-self: center;
+}
+
+.content-container {
+  display: flex;
+  justify-content: center;
+  padding: 0 80px;
+}
+
+.content {
+  max-width: 1170px;
+  width: 100%;
+}
+
+.margin-zero {
+  margin: 0px 0px;
+}
+
+.padding-zero {
+  padding: 0px 0px;
+}
+
+.margin-10 {
+  margin: 10 10;
+}
+
+.margin-20 {
+  margin: 20 20;
+}
+
+.margin-30 {
+  margin: 30 30;
+}
+
+.margin-40 {
+  margin: 40 40;
+}
+
+.margin-horizontal-10 {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.margin-horizontal-20 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.margin-top-10 {
+  margin-top: 10px;
+}
+
+.margin-top-20 {
+  margin-top: 20px;
+}
+
+.margin-top-30 {
+  margin-top: 30px;
+}
+
+.margin-top-40 {
+  margin-top: 40px;
+}
+
+.margin-top-60 {
+  margin-top: 60px;
+}
+
+.margin-top-80 {
+  margin-top: 80px;
+}
+
+.margin-top-100 {
+  margin-top: 100px;
+}
+
+.margin-top-120 {
+  margin-top: 120px;
+}
+
+.margin-top-200 {
+  margin-top: 200px;
+}
+
+.margin-bottom-5 {
+  margin-bottom: 5px;
+}
+
+.margin-bottom-10 {
+  margin-bottom: 10px;
+}
+
+.margin-bottom-20 {
+  margin-bottom: 20px;
+}
+
+.margin-bottom-30 {
+  margin-bottom: 30px;
+}
+
+.margin-bottom-40 {
+  margin-bottom: 40px;
+}
+
+.margin-bottom-60 {
+  margin-bottom: 60px;
+}
+
+.margin-bottom-80 {
+  margin-bottom: 80px;
+}
+.margin-bottom-100 {
+  margin-bottom: 100px;
+}
+
+.padding-top-big {
+  padding-top: 114px;
+}
+
+.padding-10 {
+  padding: 10px;
+}
+
+.padding-20 {
+  padding: 20px;
+}
+
+.padding-30 {
+  padding: 30px;
+}
+
+.padding-40 {
+  padding: 40px;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.round {
+  border-radius: 20px;
+}
+
+.border {
+  border-radius: 20px;
+  border: solid 2px var(--gray);
+}
+
+.min-w-200 {
+  min-width: 200px;
 }

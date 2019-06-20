@@ -56,6 +56,10 @@ h6 {
 }
 
 /* Color */
+.accent {
+  color: var(--accent);
+}
+
 .white {
   color: white;
 }
@@ -137,6 +141,10 @@ h6 {
 
 .flex-direction-column {
   flex-direction: column;
+}
+
+.flex-1 {
+  flex: 1;
 }
 
 .flex-grow-1 {

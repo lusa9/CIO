@@ -2,15 +2,33 @@ import React from 'react';
 import logo from '../assets/logo.svg'
 
 const buttons = [
-    "About Us",
-    "Why OCIO?",
-    "Our Services",
-    "The Team",
-    "Resources",
-    "Contact Us",
+    {
+        name: "About Us",
+        path: "/about"
+    },
+    {
+        name: "Why OCIO?",
+        path: "/why"
+    },
+    {
+        name: "Our Services",
+        path: "/services"
+    },
+    {
+        name: "The Team",
+        path: "/team"
+    },
+    {
+        name: "Resources",
+        path: "/resources"
+    },
+    {
+        name: "Contact Us",
+        path: "/contact"
+    }
 ]
 
-const Button = (name) => (
+const Button = ({name}) => (
     <div className="h-full d-flex align-items-center">
         <h4 className="white">{name}</h4>
     </div>

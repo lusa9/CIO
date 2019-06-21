@@ -120,6 +120,9 @@ h6 {
   cursor: pointer;
   padding: 0px;
   margin: 0px;
+}
+
+.button1, .button2 {
   border-radius: 5px;
 }
 

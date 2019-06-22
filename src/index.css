@@ -258,6 +258,10 @@ h6 {
   align-items: center;
 }
 
+.align-items-start {
+  align-items: flex-start;
+}
+
 .align-items-end {
   align-items: flex-end;
 }
@@ -314,6 +318,10 @@ h6 {
 .margin-horizontal-40 {
   margin-left: 40px;
   margin-right: 40px;
+}
+
+.margin-top-5 {
+  margin-top: 5px;
 }
 
 .margin-top-10 {

@@ -5,8 +5,8 @@ import { Title } from '../Title';
 export const Why = () => (
     <div className="d-flex flex-1 flex-direction-column">
         <SectionHeader name="Why OCIO?"/>
-        <div className="content-container margin-bottom-200">
-            <div className="content flex-1 flex-direction-column margin-top-120">
+        <div className="content-container margin-top-120 margin-bottom-200">
+            <div className="content flex-1 flex-direction-column">
                 <Title text="Why choose The Global CIO Office for your OCIO?"/>
                 <h4 className="margin-top-40 text-justify">Our OCIO teams extensive investment expertise, robust research platform, and advanced technology and analytics are aligned in one single goal: helping clients achieve their investment objectives.</h4>
                 <br/>

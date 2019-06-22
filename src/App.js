@@ -5,6 +5,7 @@ import { Home } from './Components/Home';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import { NotFound } from './Components/NotFound';
 import { About } from './Components/About';
+import { Legal } from './Components/Legal';
 
 class App extends React.Component {
   constructor(props) {
@@ -13,22 +14,26 @@ class App extends React.Component {
   }
 
   render() {
+      const { routeToPath } = this
       return (
         <div className="d-flex flex-direction-column" style={{minHeight: "100vh"}}>
         <Router ref={this.router}>
-          <Header routeToPath={path => this.router.current.history.push(path)}/>
+          <Header {...{routeToPath}}/>
           <div className="flex-grow-1 d-flex">
               <Switch>
                 <Route exact path="/" component={Home} />
                 <Route exact path="/about" component={About} />
+                <Route exact path="/legal" component={Legal} />
                 <Route path="" component={NotFound} />
               </Switch>
           </div>
-          <Footer />
+          <Footer {...{routeToPath}}/>
         </Router>
       </div>
       )
   }
+
+  routeToPath = path => this.router.current.history.push(path)
 }
 
 export default App;

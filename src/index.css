@@ -19,6 +19,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0px 0px;
   padding: 0px 0px;
   font-weight: 400;
+  color: var(--accent);
 }
 
 /* Font */
@@ -36,6 +37,8 @@ h3 {
 
 h4 {
   font-size: 15px;
+  letter-spacing: 0.18px;
+  line-height: 27px;
 }
 
 h5 {
@@ -154,6 +157,14 @@ h6 {
   flex-grow: 1;
 }
 
+.justify-content-start {
+  justify-content: flex-start;
+}
+
+.justify-content-end {
+  justify-content: flex-end;
+}
+
 .justify-content-between {
   justify-content: space-between;
 }
@@ -220,6 +231,14 @@ h6 {
 
 .h-120 {
   height: 120px;
+}
+
+.h-200 {
+  height: 200px;
+}
+
+.h-240 {
+  height: 240px;
 }
 
 .w-120 {
@@ -422,8 +441,13 @@ h6 {
 .margin-bottom-80 {
   margin-bottom: 80px;
 }
+
 .margin-bottom-100 {
   margin-bottom: 100px;
+}
+
+.margin-bottom-200 {
+  margin-bottom: 200px;
 }
 
 .padding-top-big {
@@ -465,4 +489,14 @@ h6 {
 
 .min-w-200 {
   min-width: 200px;
+}
+
+.line {
+  height: 1px;
+  width: 100%;
+  background-color: var(--accent);
+}
+
+.text-justify {
+  text-align: justify;
 }

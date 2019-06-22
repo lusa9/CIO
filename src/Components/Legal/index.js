@@ -1,6 +1,4 @@
 import React from 'react';
-import home from '../../assets/home.jpg'
-import logo from '../../assets/logo.svg'
 import { SectionHeader } from '../Section Header';
 
 export const Legal = () => (

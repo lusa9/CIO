@@ -306,6 +306,11 @@ h6 {
   margin-right: 20px;
 }
 
+.margin-horizontal-40 {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
 .margin-top-10 {
   margin-top: 10px;
 }
@@ -492,11 +497,15 @@ h6 {
 }
 
 .line {
-  height: 1px;
+  height: 2px;
   width: 100%;
   background-color: var(--accent);
 }
 
 .text-justify {
   text-align: justify;
+}
+
+.nowrap {
+  white-space: nowrap;
 }

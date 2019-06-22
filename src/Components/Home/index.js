@@ -1,6 +1,6 @@
 import React from 'react';
-import home from '../assets/home.jpg'
-import logo from '../assets/logo.svg'
+import home from '../../assets/home.jpg'
+import logo from '../../assets/logo.svg'
 
 export const Home = () => (
     <div className="d-flex justify-content-center align-items-center flex-1" style={{backgroundImage: `url(${home})`, backgroundRepeat: "no-repeat", backgroundSize: "cover", backgroundPosition: "center"}}>

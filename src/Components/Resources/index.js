@@ -3,10 +3,10 @@ import { SectionHeader } from '../Section Header';
 import { Title } from '../Title';
 import resources from '../../assets/resources.jpg'
 
-import TradeWarStrategies from "./TradeWarStrategies.pdf"
-import LessonsForTheEurozoneFromArgentina from "./LessonsForTheEurozoneFromArgentina.pdf"
-import JeNeRegretRien from './JeNeRegretRien.pdf'
-import ItIsLookingMoreLikeJapan from './ItIsLookingMoreLikeJapan.pdf'
+import TradeWarStrategies from "./CIO_weekly_trade_war_strategies.pdf"
+import LessonsForTheEurozoneFromArgentina from "./CIO_weekly_lessons_for_the_eurozone_from_argentina.pdf"
+import JeNeRegretRien from './CIO_weekly_je_ne_regret_rien.pdf'
+import ItIsLookingMoreLikeJapan from './CIO_weekly_it_is_looking_more_like_japan.pdf'
 
 export const Resources = () => (
     <div className="d-flex flex-1 flex-direction-column">

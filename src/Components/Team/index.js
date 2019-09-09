@@ -6,6 +6,7 @@ import mark from '../../assets/mark.jpg'
 import sam from '../../assets/sam.jpg'
 import aaron from '../../assets/aaron.jpg'
 import luka from '../../assets/luka.jpg'
+import javed from '../../assets/javed.jpg'
 
 const members = [
     {
@@ -35,8 +36,13 @@ const members = [
     },
     {
         image: luka,
-        title: "Luka Stimac - Consultant",
+        title: "Luka Stimac - General Business Consultant",
         description: "Luka started his financial career by co-founding a hedge fund in the Dubai International Financial Centre straight out of university, and ultimately became the company's Vice President. He worked several years on developing the company to become a recognised brand and a platform to serve all alternative fund types, from private equity, hedge and VC funds. He also co-founded the largest and most exclusive alternative investment conferences in the Middle East, and worked with the best fund managers as well as investors from around the world. After selling his shares and exiting he spent several years in various roles within the IT industry and held several advisory roles in Europe. Luka was also a member of AIMA's Middle East Executive Committee which worked closely with policy makers, legislators and regulators. He holds a B.A. degree in International Business Management from Franklin University Switzerland."
+    },
+    {
+        image: javed,
+        title: "Javed Hussain - Adviser",
+        description: "Javed is a senior banker with a strong risk management background. Javed has over 30 years’ experience in the financial industry. He brings a unique skill set of risk management, cross-asset principal investing/trading (including private equity), investment banking and private capital markets, with a strong emerging markets focus. He started his career at the Bank of England before moving to Nomura where he worked for 19 years, initially in London as a senior credit risk manager and then portfolio manager in the bank’s de facto internal hedge fund. He has been in the Middle East since 2007, where he co-led the establishment of the firm’s Saudi operation as the initial CEO in 2009, before moving to a senior regional cross-divisional role in Dubai. He returned to Riyadh for a second stint as CEO of Nomura Saudi Arabia (2014 – 2017). Since leaving Nomura in 2017, he has been working with family offices and UHNWIs in the private capital markets space. He is currently based in Dubai."
     },
 ]
 

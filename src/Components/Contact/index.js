@@ -28,7 +28,7 @@ export const Contact = () => (
                             <MailIcon />
                         </div>
                         <div className="margin-left-20">
-                            <a href="mailto:info@theglobalciooffice.com" style={{color: "#868686"}}>info@theglobalciooffice.com</a>
+                            <a href="mailto:info@theglobalciooffice.com" className="darkgray">info@theglobalciooffice.com</a>
                         </div>
                     </div>
                     <div className="d-flex margin-top-30">
@@ -36,7 +36,7 @@ export const Contact = () => (
                             <PhoneIcon />
                         </div>
                         <div className="margin-left-20">
-                            <a href="tel:+6591737270" style={{color: "#868686"}}>+65 91737270</a>
+                            <a href="tel:+6591737270" className="darkgray">+65 91737270</a>
                         </div>
                     </div>
                 </div>

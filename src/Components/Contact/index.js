@@ -23,20 +23,20 @@ export const Contact = () => (
                             <h4 style={{lineHeight: "21px"}}>Singapore 059818</h4>
                         </div>
                     </div>
-                    <div className="d-flex margin-top-20">
+                    <div className="d-flex margin-top-30">
                         <div className="d-flex justify-content-center" style={{width: 23}}>
                             <MailIcon />
                         </div>
                         <div className="margin-left-20">
-                            <a href="mailto:info@theglobalciooffice.com">info@theglobalciooffice.com</a>
+                            <a href="mailto:info@theglobalciooffice.com" style={{color: "#868686"}}>info@theglobalciooffice.com</a>
                         </div>
                     </div>
-                    <div className="d-flex margin-top-20">
+                    <div className="d-flex margin-top-30">
                         <div className="d-flex justify-content-center" style={{width: 23}}>
                             <PhoneIcon />
                         </div>
                         <div className="margin-left-20">
-                            <a href="tel:+6591737270">+65 91737270</a>
+                            <a href="tel:+6591737270" style={{color: "#868686"}}>+65 91737270</a>
                         </div>
                     </div>
                 </div>

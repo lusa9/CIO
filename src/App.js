@@ -10,6 +10,7 @@ import { Why } from './Components/Why';
 import { Services } from './Components/Services';
 import { Team } from './Components/Team';
 import { Resources } from './Components/Resources';
+import { Contact } from './Components/Contact';
 
 class App extends React.Component {
   constructor(props) {
@@ -31,6 +32,7 @@ class App extends React.Component {
                 <Route exact path="/services" component={Services} />
                 <Route exact path="/team" component={Team} />
                 <Route exact path="/resources" component={Resources} />
+                <Route exact path="/contact" component={Contact} />
                 <Route exact path="/legal" component={Legal} />
                 <Route path="" component={NotFound} />
               </Switch>

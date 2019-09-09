@@ -1,15 +1,17 @@
 import React from 'react';
 import { SectionHeader } from '../Section Header';
 import { Title } from '../Title';
+import LocationImage from './location.jpg'
 
 export const Contact = () => (
     <div className="d-flex flex-1 flex-direction-column">
         <SectionHeader name="Contact Us"/>
         <div className="content-container margin-top-120 margin-bottom-200">
             <div className="content d-flex">
-                <div style={{height: 500, width: "50%", backgroundColor: "yellow"}}>
-                </div>
-                <div className="d-flex flex-direction-column margin-top-10" style={{height: 500, width: "50%", paddingLeft: 40}}>
+                <img height={500} width="50%" src={LocationImage} style={{objectFit: "cover", borderRadius: 9}}>
+                    
+                </img>
+                <div className="d-flex flex-direction-column margin-top-5" style={{height: 500, width: "50%", paddingLeft: 40}}>
                     <div className="d-flex">
                         <div className="d-flex justify-content-center" style={{width: 23}}>
                             <LocationIcon />

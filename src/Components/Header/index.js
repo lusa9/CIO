@@ -38,7 +38,9 @@ export const Header = ({routeToPath}) => (
     <div className="h-100 d-flex">
         <div className="bg-white h-100" style={{display: "flex", flex: 1, paddingLeft: 80}} />
         <div className="content bg-accent d-flex justify-content-between" style={{paddingRight: 80}}>
-            <img className="bg-white button" src={logo} style={{paddingRight: 40}} onClick={() => routeToPath("/")}/>
+            <div className="d-flex align-items-center h-full bg-white padding-right-20">
+                <img className="button" src={logo} style={{width: 185, height: 68}} onClick={() => routeToPath("/")}/>
+            </div>
             <div className="d-flex">
                 {buttons.map(button => ({name: button.name, onClick: () => routeToPath(button.path)})).map(Button).withSpace({width: 40})}
             </div>

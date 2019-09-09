@@ -452,6 +452,10 @@ h6 {
   margin-bottom: 40px;
 }
 
+.margin-bottom-50 {
+  margin-bottom: 50px;
+}
+
 .margin-bottom-60 {
   margin-bottom: 60px;
 }
@@ -486,6 +490,14 @@ h6 {
 
 .padding-40 {
   padding: 40px;
+}
+
+.padding-right-20 {
+  padding-right: 20px;
+}
+
+.padding-right-40 {
+  padding-right: 40px;
 }
 
 .w-full {

@@ -1,6 +1,7 @@
 import React from 'react';
 import { SectionHeader } from '../Section Header';
 import video from './video.mp4'
+import logo from '../../assets/logo.svg'
 
 export const About = () => (
     <div className="d-flex flex-1 flex-direction-column">
@@ -8,7 +9,7 @@ export const About = () => (
         <div className="content-container margin-bottom-200">
             <div className="content flex-1 flex-direction-column">
                 <video className="margin-top-120" width="100%" controls >
-                    <source src={video} type="video/mp4"/>
+                    <source src={video} type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
                 <h4 className="margin-top-120 text-justify">‘’The Global CIO Office’’ is part of Purple Asset Management, a CMS Licensed Company regulated by the Monetary Authority of Singapore.</h4>

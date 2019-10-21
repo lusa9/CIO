@@ -38,7 +38,7 @@ const members = [
     },
     {
         image: sam,
-        title: "Sam Picot, CFA – Fund Analyst",
+        title: "Sam Picot, CFA - Fund Analyst",
         description: "Sam joined Purple Asset Management following a 6 year career at Russell Investments in Sydney & Auckland. At Russell, Sam worked initially as a risk analyst before spending 3 years in investment/fund research. Sam provides fund research to our Asian client base and is a key support to the London based fund research team. Sam has a Bcom (1st Class) degree in Finance and Economics, and is conversationally fluent in Mandarin."
     },
     {

@@ -8,6 +8,7 @@ import aaron from '../../assets/aaron.jpg'
 import luka from '../../assets/luka.jpg'
 import javed from '../../assets/javed.jpg'
 import johan from '../../assets/johan.jpg'
+import placeholder from '../../assets/placeholder.jpg'
 
 const members = [
     {
@@ -29,6 +30,11 @@ const members = [
         image: mark,
         title: "Mark McFarland - Consultant CIO",
         description: "Global economist with 20+ years of senior research and advisory experience in Asia, Europe and frontier markets. Team head for economics research and tactical asset allocation. Specialisation: G7 markets, all-Asia and frontier markets in the Middle East and Africa. Advisor to institutional, corporate and individual HNW clients. Keynote speaker at industry conferences and in the financial media. He was the Chief Economist at Coutts / UBP and led global economic research & the all-Asia investment strategy team. Also the former Chief Strategist / EXCO member at Emirates NBD - team head & chair of tactical asset allocation and Head of Investment Advisory. Marks clients primarily include Sovereigns, institutions, corporate treasuries & private investors. He received his MSc in Economics from Warwick University's prestigious graduate school, he is a Hong Kong SFC licence holder (1 & 4) & HK Permanent Resident, Member of the Hong Kong Institute of Directors and the Republic of Ireland & UK nationalities."
+    },
+    {
+        image: placeholder,
+        title: "Christopher Grune, CFA, PRM, CQF, PRM, FIA - CIO Consultant",
+        description: "He is an experienced finance professional with over twenty years’ experience in the markets and over ten years’ experience dealing with emerging and frontier markets. He is a practitioner in derivatives and quant strategies and has applied these in regions where these skills and capabilities tend to be very thin or nearly non-existent. He spearheaded State Street Global Advisor’s (SSgA) first investments into Sub-Saharan (ex-South Africa) Africa more than 10 years ago, managing about $1 billion in emerging market assets with more than half allocated to Africa. He has experience trading and investing in over 50 countries worldwide. He has published articles, appeared on national television and spoken at numerous investment conferences. He built equity risk models at Citi in both Japan and the US. He also sits on a governance committee for the Nairobi Securities Exchange, is on the board of directors for the CFA Society of East Africa and is president of the Columbia Alumni Association of Kenya. He obtained his MBA from Columbia Business School in New York, is a CFA Charterholder, has completed Fitch Learning/Paul Wilmott’s Certificate in Quantitative Finance course, has the Professional Risk Manager (PRM) designation and is certified as a SIIA Financial Information Associate (FIA)."
     },
     {
         image: sam,

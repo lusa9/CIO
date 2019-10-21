@@ -8,9 +8,7 @@ export const Contact = () => (
         <SectionHeader name="Contact"/>
         <div className="content-container margin-top-120 margin-bottom-200">
             <div className="content d-flex">
-                <img height={500} width="50%" src={LocationImage} style={{objectFit: "cover", borderRadius: 9}}>
-                    
-                </img>
+                <img height={500} width="50%" src={LocationImage} style={{objectFit: "cover", borderRadius: 9}} />
                 <div className="d-flex flex-direction-column margin-top-5" style={{height: 500, width: "50%", paddingLeft: 40}}>
                     <div className="d-flex">
                         <div className="d-flex justify-content-center" style={{width: 23}}>

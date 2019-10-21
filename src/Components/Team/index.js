@@ -54,7 +54,7 @@ const members = [
 
 export const Team = () => (
     <div className="d-flex flex-1 flex-direction-column">
-        <SectionHeader name="The Team"/>
+        <SectionHeader name="Team"/>
         <div className="content-container margin-top-20 margin-bottom-200">
             <div className="content flex-1 flex-direction-column">
                 {

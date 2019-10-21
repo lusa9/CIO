@@ -5,7 +5,7 @@ import LocationImage from './location.jpg'
 
 export const Contact = () => (
     <div className="d-flex flex-1 flex-direction-column">
-        <SectionHeader name="Contact Us"/>
+        <SectionHeader name="Contact"/>
         <div className="content-container margin-top-120 margin-bottom-200">
             <div className="content d-flex">
                 <img height={500} width="50%" src={LocationImage} style={{objectFit: "cover", borderRadius: 9}}>

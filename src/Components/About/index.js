@@ -3,7 +3,7 @@ import { SectionHeader } from '../Section Header';
 
 export const About = () => (
     <div className="d-flex flex-1 flex-direction-column">
-        <SectionHeader name="About Us"/>
+        <SectionHeader name="About"/>
         <div className="content-container margin-bottom-200">
             <div className="content flex-1 flex-direction-column">
                 <h4 className="margin-top-120 text-justify">‘’The Global CIO Office’’ is part of Purple Asset Management, a CMS Licensed Company regulated by the Monetary Authority of Singapore.</h4>

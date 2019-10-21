@@ -3,19 +3,19 @@ import logo from '../../assets/logo.svg'
 
 const buttons = [
     {
-        name: "About Us",
+        name: "About",
         path: "/about"
     },
     {
-        name: "Why OCIO?",
-        path: "/why"
+        name: "OCIO",
+        path: "/ocio"
     },
     {
-        name: "Our Services",
+        name: "Services",
         path: "/services"
     },
     {
-        name: "The Team",
+        name: "Team",
         path: "/team"
     },
     {
@@ -23,7 +23,7 @@ const buttons = [
         path: "/resources"
     },
     {
-        name: "Contact Us",
+        name: "Contact",
         path: "/contact"
     }
 ]

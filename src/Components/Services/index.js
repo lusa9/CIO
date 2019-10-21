@@ -4,7 +4,7 @@ import { Title } from '../Title';
 
 export const Services = () => (
     <div className="d-flex flex-1 flex-direction-column">
-        <SectionHeader name="Our Services"/>
+        <SectionHeader name="Services"/>
         <div className="content-container margin-top-120 margin-bottom-200">
             <div className="content flex-1 flex-direction-column">
                 <Title text="The Global CIO Office"/>

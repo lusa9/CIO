@@ -6,7 +6,7 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import { NotFound } from './Components/NotFound';
 import { About } from './Components/About';
 import { Legal } from './Components/Legal';
-import { Why } from './Components/Why';
+import { OCIO } from './Components/OCIO';
 import { Services } from './Components/Services';
 import { Team } from './Components/Team';
 import { Resources } from './Components/Resources';
@@ -28,7 +28,7 @@ class App extends React.Component {
               <Switch>
                 <Route exact path="/" component={Home} />
                 <Route exact path="/about" component={About} />
-                <Route exact path="/why" component={Why} />
+                <Route exact path="/ocio" component={OCIO} />
                 <Route exact path="/services" component={Services} />
                 <Route exact path="/team" component={Team} />
                 <Route exact path="/resources" component={Resources} />

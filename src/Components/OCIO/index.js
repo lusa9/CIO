@@ -2,9 +2,9 @@ import React from 'react';
 import { SectionHeader } from '../Section Header';
 import { Title } from '../Title';
 
-export const Why = () => (
+export const OCIO = () => (
     <div className="d-flex flex-1 flex-direction-column">
-        <SectionHeader name="Why OCIO?"/>
+        <SectionHeader name="OCIO"/>
         <div className="content-container margin-top-120 margin-bottom-200">
             <div className="content flex-1 flex-direction-column">
                 <Title text="Why choose The Global CIO Office for your OCIO?"/>

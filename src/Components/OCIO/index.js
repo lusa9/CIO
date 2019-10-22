@@ -1,6 +1,5 @@
 import React from 'react';
 import { SectionHeader } from '../Section Header';
-import { Title } from '../Title';
 
 export const OCIO = () => (
     <div className="d-flex flex-1 flex-direction-column">

@@ -1,8 +1,6 @@
 import React from 'react';
 import { SectionHeader } from '../Section Header';
 import video from './video.mp4'
-import logo from '../../assets/logo.svg'
-import { Title } from '../Title';
 
 export const About = () => (
     <div className="d-flex flex-1 flex-direction-column">

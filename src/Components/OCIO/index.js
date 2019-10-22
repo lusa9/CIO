@@ -16,7 +16,7 @@ export const OCIO = () => (
                 <h4 className="text-justify">•  Unwavering objectivity</h4>
                 <br/>
                 <h4 className="text-justify">We sit on your side of the table.</h4>
-                <Title className="margin-top-100" text="A US phenomena now going global"/>
+                <Title className="margin-top-120" text="A US phenomena now going global"/>
                 <h4 className="margin-top-40 text-justify">“The OCIO market is booming – and its influence is reverberating across the asset management industry.” Alicia McElhaney January 31, 2019 (Institutional Investor)</h4>
             </div>
         </div>

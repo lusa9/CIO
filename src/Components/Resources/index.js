@@ -10,7 +10,7 @@ import ItIsLookingMoreLikeJapan from './CIO_weekly_it_is_looking_more_like_japan
 
 export const Resources = () => (
     <div className="d-flex flex-1 flex-direction-column">
-        <img src={resources} style={{objectFit: "cover"}}/>
+        <img height={260} src={resources} style={{objectFit: "cover"}}/>
         <div className="content-container margin-top-120 margin-bottom-200">
             <div className="content d-flex flex-1 flex-direction-column">
                 <a className="margin-top-10 accent" href={TradeWarStrategies} download="CIO weekly - Trade War Strategies.pdf">CIO weekly - Trade War Strategies</a>

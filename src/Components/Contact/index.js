@@ -1,7 +1,5 @@
 import React from 'react';
 import { SectionHeader } from '../Section Header';
-import { Title } from '../Title';
-import LocationImage from './location.jpg'
 
 export const Contact = () => (
     <div className="d-flex flex-1 flex-direction-column">

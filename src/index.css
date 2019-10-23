@@ -24,11 +24,11 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Font */
 h1 {
-  font-size: 30px;
+  font-size: 28px;
 }
 
 h2 {
-  font-size: 26px;
+  font-size: 25px;
 }
 
 h3 {
@@ -540,20 +540,29 @@ h6 {
   white-space: nowrap;
 }
 
+.layout-2-container {
+  flex-direction: column;
+}
+
 .layout-2-details {
-  margin-top: 5px; 
-  padding-left: 40px;
+  margin-top: 35px; 
+  margin-left: 10px;
 }
 
 @media(min-width: 1024px) {
   .layout-2-container {
-    flex-direction: column;
+    flex-direction: row;
   }
 
-  .layout-2-details {
+  /* .layout-2-details {
     margin-top: 0px; 
     padding-left: 0px;
     margin-left: 10px; 
     padding-top: 40px;
+  } */
+
+  .layout-2-details {
+    margin-top: 5px; 
+    margin-left: 40px;
   }
 }

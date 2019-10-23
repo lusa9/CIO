@@ -539,3 +539,21 @@ h6 {
 .nowrap {
   white-space: nowrap;
 }
+
+.layout-2-details {
+  margin-top: 5px; 
+  padding-left: 40px;
+}
+
+@media(min-width: 1024px) {
+  .layout-2-container {
+    flex-direction: column;
+  }
+
+  .layout-2-details {
+    margin-top: 0px; 
+    padding-left: 0px;
+    margin-left: 10px; 
+    padding-top: 40px;
+  }
+}

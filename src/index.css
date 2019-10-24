@@ -1,18 +1,19 @@
 :root {
   --accent: #201F4B;
   --accent2: #DF1117;
+  --accent3: #109ED5;
   --dark: #404040;
-  --darkgray: #686868;
+  --darkgray: #5E5E5E;
   --gray: #979797;
   --lightgray: #E5E5E5;
   --light: #F6F6F6;
-  --new: #10A1DA;
+  --black: #000000;
 }
 
 a {
   text-decoration: none;
   font-weight: 700;
-  color: var(--new);
+  color: var(--accent3);
 }
 
 body {
@@ -90,11 +91,15 @@ h6 {
 }
 
 .contact-button {
-  color: var(--new);
+  color: var(--accent3);
 }
 
 .white {
   color: white;
+}
+
+.black {
+  color: var(--black);
 }
 
 .dark {

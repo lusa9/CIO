@@ -1,16 +1,18 @@
 :root {
   --accent: #201F4B;
+  --accent2: #DF1117;
   --dark: #404040;
   --darkgray: #686868;
   --gray: #979797;
   --lightgray: #E5E5E5;
   --light: #F6F6F6;
+  --new: #10A1DA;
 }
 
 a {
   text-decoration: none;
   font-weight: 700;
-  color: #ED1218;
+  color: var(--new);
 }
 
 body {
@@ -69,6 +71,26 @@ h6 {
 /* Color */
 .accent {
   color: var(--accent);
+}
+
+.accent2 {
+  color: var(--accent2);
+}
+
+.accent2-fill {
+  fill: var(--accent2);
+}
+
+.darkgray-fill {
+  fill: var(--darkgray);
+}
+
+.contact-icon-fill {
+  fill: var(--accent);
+}
+
+.contact-button {
+  color: var(--new);
 }
 
 .white {

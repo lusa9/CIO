@@ -3,16 +3,26 @@ import { SectionHeader } from '../Section Header';
 import { Title } from '../Title';
 import resources from '../../assets/resources.jpg'
 
-import TradeWarStrategies from "./CIO_weekly_trade_war_strategies.pdf"
-import LessonsForTheEurozoneFromArgentina from "./CIO_weekly_lessons_for_the_eurozone_from_argentina.pdf"
-import JeNeRegretRien from './CIO_weekly_je_ne_regret_rien.pdf'
-import ItIsLookingMoreLikeJapan from './CIO_weekly_it_is_looking_more_like_japan.pdf'
+import PoliticallyDrivenMarkets from './CIO Weekly - Politically Driven Markets.pdf'
+import QTtoQE from './CIO Weekly - QT to QE.pdf'
+import TakingNothingForGranted from './CIO Weekly - Taking Nothing for Granted.pdf'
+import TradeWarStrategies from "./CIO weekly - Trade War Strategies.pdf"
+import JeNeRegretRien from './CIO Weekly - Je ne regret rien.pdf'
+import LessonsForTheEurozoneFromArgentina from "./CIO Weekly - The Lessons for the eurozone from Argentina.pdf"
 
 export const Resources = () => (
     <div className="d-flex flex-1 flex-direction-column">
         <img height={260} src={resources} style={{objectFit: "cover"}}/>
         <div className="content-container margin-bottom-200">
             <div className="content flex-1 flex-direction-column">
+                <h2 className="margin-top-120">Newsletters</h2>
+                <h4 className="margin-top-30"><Bullet/><a href={PoliticallyDrivenMarkets}>Politically Driven Markets</a> - 30th September 2019</h4>
+                <h4><Bullet/><a href={QTtoQE}>QT to QE</a> - 23rd September 2019</h4>
+                <h4><Bullet/><a href={TakingNothingForGranted}>Taking Nothing for Granted</a> - 16th September 2019</h4>
+                <h4><Bullet/><a href={TradeWarStrategies}>Trade War Strategies</a> - 9th September 2019</h4>
+                <h4><Bullet/><a href={JeNeRegretRien}>Je ne regret rien</a> - 26th August 2019</h4>
+                <h4><Bullet/><a href={LessonsForTheEurozoneFromArgentina}>The Lessons for the eurozone from Argentina</a> - 19th August 2019</h4>
+    
                 <h2 className="margin-top-120">Articles</h2>
                 <h4 className="margin-top-30"><Bullet/><a href={"https://www.businesstimes.com.sg/investing-wealth/purple-asset-management-launches-ocio-services-for-asia-family-offices-wealth"}>Purple Asset Management launches OCIO services for Asia family offices, wealth managers</a> - The Business Times</h4>
                 <h4><Bullet/><a href={"https://asianprivatebanker.com/industry/family-office-iam/purple-am-launches-third-party-cio-office-for-singapore-iams-wms"}>Purple AM launches third-party CIO office for Singapore IAMs, WMs</a> - Asian Private Banker</h4>

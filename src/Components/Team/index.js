@@ -75,7 +75,7 @@ const Member = ({image, title, description}) => (
     <div className="d-flex align-items-start margin-top-120">
         <img src={image} />
         <div className="d-flex flex-direction-column margin-left-40">
-            <h1>{title}</h1>
+            <h2>{title}</h2>
             <h4 className="margin-top-10 text-justify">{description}</h4>
         </div>
     </div>

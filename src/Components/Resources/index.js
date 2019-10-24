@@ -28,13 +28,6 @@ export const Resources = () => (
                 <h4><Bullet/><a href={"https://asianprivatebanker.com/industry/family-office-iam/purple-am-launches-third-party-cio-office-for-singapore-iams-wms"}>Purple AM launches third-party CIO office for Singapore IAMs, WMs</a> - Asian Private Banker</h4>
                 <h4><Bullet/><a href={"https://citywireasia.com/news/new-outsourced-cio-service-for-asia-middle-east-wealth-managers/a1272898?ref=international-asia-latest-news-list"}>New outsourced CIO service for Asia, Middle East wealth managers</a> - Citywire Asia</h4>
                 <h4><Bullet/><a href={"https://www.finews.asia/finance/29747-purple-am-launches-outsourced-chief-investment-officer-services-global-cio-office-gary-dugan-johan-jooste"}>Outsourced CIO Services Launched in Singapore</a> - Finews.asia</h4>
-
-                <h4 className="margin-top-120 black">ReAya’s Growth Philosophy is a set of parameters that are used to evaluate an investment opportunity and allows ReAya to be the best possible private equity partner for Poliklinika Glavic in MENA.</h4>
-                <h4 className="margin-top-30"><span className="black bold">Industry Focus: </span>All Subsectors of Healthcare & Life Science</h4>
-                <h4><span className="black bold">Geography: </span>MENA</h4>
-                <h4><span className="black bold">Profitability: </span>Positive Cash Flow / Dividend generating</h4>
-                <h4><span className="black bold">Investment Size: </span>Ticket size of US$ 10-100 million with follow-on reserves for future growth opportunities</h4>
-                <h4><span className="black bold">Growth Capital: </span>Majority Stake by ReAya</h4>
             </div>
         </div>
     </div>

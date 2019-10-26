@@ -624,6 +624,10 @@ h6 {
   display: flex;
 }
 
+.expanded-buttons {
+  display: block;
+}
+
 @media(min-width: 840px) {
   .content-container {
     padding: 0px 50px;
@@ -637,7 +641,7 @@ h6 {
     flex-direction: row;
   }
 
-  .menu-button {
+  .menu-button, .expanded-buttons {
     display: none;
   }
 } 

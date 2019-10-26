@@ -74,7 +74,7 @@ export class Header extends React.Component {
                         </div>
                         {
                             expandedButtons ? (
-                                <div className='margin-bottom-20'>
+                                <div className='expanded-buttons margin-bottom-20'>
                                     {buttons.map(button => ({name: button.name, onClick: () => routeToPath(button.path)})).map(Button).map(button => <div style={{height: 43}}>{button}</div>)}
                                 </div>
                             ) : null

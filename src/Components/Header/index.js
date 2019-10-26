@@ -41,7 +41,7 @@ export const Header = ({routeToPath}) => (
             <div className="d-flex align-items-center h-full bg-white padding-right-20">
                 <img className="button" src={logo} style={{width: 185, height: 68}} onClick={() => routeToPath("/")}/>
             </div>
-            <div className="d-flex">
+            <div className="navigation-buttons">
                 {buttons.map(button => ({name: button.name, onClick: () => routeToPath(button.path)})).map(Button).withSpace({width: 40})}
             </div>
         </div>

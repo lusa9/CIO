@@ -12,7 +12,9 @@ import LessonsForTheEurozoneFromArgentina from "./CIO Weekly - The Lessons for t
 
 export const Resources = () => (
     <div className="d-flex flex-1 flex-direction-column">
-        <img height={260} src={resources} style={{objectFit: "cover"}}/>
+        <div style={{height: 260, width: "100%"}}>
+            <img height="100%" width="100%" src={resources} style={{objectFit: "cover", overflow: "hidden"}}/>
+        </div>
         <div className="content-container margin-bottom-200">
             <div className="content flex-1 flex-direction-column">
                 <h2 className="margin-top-120">Newsletters</h2>

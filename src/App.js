@@ -2,7 +2,7 @@ import React from 'react';
 import { Header } from './Components/Header'
 import { Footer } from './Components/Footer';
 import { Home } from './Components/Home';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+import {BrowserRouter as Router, Switch, Route, Redirect} from 'react-router-dom'
 import { NotFound } from './Components/NotFound';
 import { About } from './Components/About';
 import { Legal } from './Components/Legal';
@@ -26,6 +26,7 @@ class App extends React.Component {
           <Router ref={this.router}>
             <div className="flex-grow-1 d-flex margin-top-100">
                 <Switch>
+                  <Route exact path="/CIO/" component={() => <Redirect to="/" />} />
                   <Route exact path="/" component={Home} />
                   <Route exact path="/about" component={About} />
                   <Route exact path="/ocio" component={OCIO} />

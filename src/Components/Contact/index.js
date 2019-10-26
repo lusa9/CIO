@@ -7,18 +7,16 @@ export const Contact = () => (
         <div className="content-container margin-top-60 margin-bottom-200">
             <div className="content d-flex layout-2-container">
                 <iframe style={{backgroundColor: "#E5E3DF"}} width="100%" height={400} src="https://maps.google.com/maps?width=700&amp;height=440&amp;hl=en&amp;q=Purple%20Asset%20Management%20PTE.%20LTD%208%20Eu%20Tong%20Sen%20Street%2C%20%2317-84%20The%20Central%20Singapore%20059818+(Title)&amp;ie=UTF8&amp;t=&amp;z=13&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-                <div className="d-flex flex-direction-column layout-2-details" >
+                <div className="d-flex flex-direction-column layout-2-details" style={{width: "100%", maxWidth: 294}} >
                     <div className="d-flex">
                         <div className="d-flex justify-content-center" style={{width: 23}}>
                             <LocationIcon />
                         </div>
                         <div className="margin-left-20">
-                            <h4 style={{lineHeight: "20px", whiteSpace: "nowrap"}}>
-                                Purple Asset Management PTE. LTD <br/>
-                                8 Eu Tong Sen Street, #17-84 <br/>
-                                The Central <br/>
-                                Singapore 059818 <br/>
-                            </h4>
+                            <h4 style={{lineHeight: "20px"}}>Purple Asset Management PTE. LTD</h4>
+                            <h4 style={{lineHeight: "20px"}}>8 Eu Tong Sen Street, #17-84</h4>
+                            <h4 style={{lineHeight: "20px"}}>The Central</h4>
+                            <h4 style={{lineHeight: "20px"}}>Singapore 059818</h4>
                         </div>
                     </div>
                     <div className="d-flex margin-top-30">

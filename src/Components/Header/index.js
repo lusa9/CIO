@@ -30,21 +30,32 @@ const buttons = [
 
 const Button = ({name, onClick}) => (
     <div className="h-full d-flex align-items-center button" onClick={onClick} key={name}>
-        <h4 className="white">{name}</h4>
+        <h4 className="accent">{name}</h4>
     </div>
 )
 
 export const Header = ({routeToPath}) => (
-    <div className="h-100 d-flex w-full" style={{position: "fixed", zIndex: 1}}>
-        <div className="bg-white h-100" style={{display: "flex", flex: 1, paddingLeft: 80}} />
-        <div className="content bg-accent d-flex justify-content-between" style={{paddingRight: 80}}>
-            <div className="d-flex align-items-center h-full bg-white padding-right-20">
+    <div className="h-100 bg-accent-light content-container">
+        <div className="content d-flex justify-content-between">
+            <div className="d-flex align-items-center h-full">
                 <img className="button" src={logo} style={{width: 185, height: 68}} onClick={() => routeToPath("/")}/>
             </div>
             <div className="navigation-buttons">
                 {buttons.map(button => ({name: button.name, onClick: () => routeToPath(button.path)})).map(Button).withSpace({width: 40})}
             </div>
         </div>
-        <div className="bg-accent h-100" style={{display: "flex", flex: 1}}/>
+    </div>
+)
+
+export const PreviousHeader = ({routeToPath}) => (
+    <div className="h-100 d-flex content-container bg-accent-light w-full" style={{position: "fixed", zIndex: 1}}>
+        <div className="content d-flex justify-content-between">
+            <div className="d-flex align-items-center h-full">
+                <img className="button" src={logo} style={{width: 185, height: 68}} onClick={() => routeToPath("/")}/>
+            </div>
+            <div className="navigation-buttons">
+                {buttons.map(button => ({name: button.name, onClick: () => routeToPath(button.path)})).map(Button).withSpace({width: 40})}
+            </div>
+        </div>
     </div>
 )

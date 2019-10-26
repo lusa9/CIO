@@ -22,24 +22,24 @@ class App extends React.Component {
       const { routeToPath } = this
       return (
         <div className="d-flex flex-direction-column" style={{minHeight: "100vh"}}>
-        <Router ref={this.router}>
           <Header {...{routeToPath}}/>
-          <div className="flex-grow-1 d-flex margin-top-100">
-              <Switch>
-                <Route exact path="/" component={Home} />
-                <Route exact path="/about" component={About} />
-                <Route exact path="/ocio" component={OCIO} />
-                <Route exact path="/services" component={Services} />
-                <Route exact path="/team" component={Team} />
-                <Route exact path="/resources" component={Resources} />
-                <Route exact path="/contact" component={Contact} />
-                <Route exact path="/legal" component={Legal} />
-                <Route path="" component={NotFound} />
-              </Switch>
-          </div>
-          <Footer {...{routeToPath}}/>
-        </Router>
-      </div>
+          <Router ref={this.router}>
+            <div className="flex-grow-1 d-flex">
+                <Switch>
+                  <Route exact path="/" component={Home} />
+                  <Route exact path="/about" component={About} />
+                  <Route exact path="/ocio" component={OCIO} />
+                  <Route exact path="/services" component={Services} />
+                  <Route exact path="/team" component={Team} />
+                  <Route exact path="/resources" component={Resources} />
+                  <Route exact path="/contact" component={Contact} />
+                  <Route exact path="/legal" component={Legal} />
+                  <Route path="" component={NotFound} />
+                </Switch>
+            </div>
+            <Footer {...{routeToPath}}/>
+          </Router>
+        </div>
       )
   }
 

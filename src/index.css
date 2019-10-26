@@ -1,5 +1,6 @@
 :root {
   --accent: #201F4B;
+  --accent-light: #F4F4FB;
   --accent2: #DF1117;
   --accent3: #1097DA;
   --dark: #404040;
@@ -140,6 +141,10 @@ h6 {
 
 .bg-accent {
   background-color: var(--accent);
+}
+
+.bg-accent-light {
+  background-color: var(--accent-light);
 }
 
 .debug {
@@ -604,6 +609,11 @@ h6 {
     padding: 0px 50px;
   }
 }
+@media(min-width: 840px) {
+  .navigation-buttons {
+    display: flex;
+  }
+} 
 
 @media(min-width: 1024px) {
   .content-container {
@@ -619,9 +629,6 @@ h6 {
     margin-left: 40px;
   }
 
-  .navigation-buttons {
-    display: flex;
-  }
 
   .layout-2-container {
     flex-direction: row;

@@ -83,6 +83,10 @@ h6 {
   color: var(--accent3);
 }
 
+.accent-fill {
+  fill: var(--accent);
+}
+
 .accent2-fill {
   fill: var(--accent2);
 }
@@ -603,6 +607,10 @@ h6 {
   display: none;
 }
 
+.header-container {
+  flex-direction: column;
+}
+
 .member-image-title-description-container {
   flex-direction: column;
 }
@@ -612,15 +620,25 @@ h6 {
   margin-left: 0px;
 }
 
-@media(min-width: 768px) {
+.menu-button {
+  display: flex;
+}
+
+@media(min-width: 840px) {
   .content-container {
     padding: 0px 50px;
   }
 
-}
-@media(min-width: 840px) {
   .navigation-buttons {
     display: flex;
+  }
+
+  .header-container {
+    flex-direction: row;
+  }
+
+  .menu-button {
+    display: none;
   }
 } 
 

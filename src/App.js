@@ -24,7 +24,7 @@ class App extends React.Component {
         <div className="d-flex flex-direction-column" style={{minHeight: "100vh"}}>
           <Header {...{routeToPath}}/>
           <Router ref={this.router}>
-            <div className="flex-grow-1 d-flex">
+            <div className="flex-grow-1 d-flex margin-top-100">
                 <Switch>
                   <Route exact path="/" component={Home} />
                   <Route exact path="/about" component={About} />
@@ -37,8 +37,8 @@ class App extends React.Component {
                   <Route path="" component={NotFound} />
                 </Switch>
             </div>
-            <Footer {...{routeToPath}}/>
           </Router>
+          <Footer {...{routeToPath}}/>
         </div>
       )
   }

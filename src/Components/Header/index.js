@@ -35,15 +35,16 @@ const Button = ({name, onClick}) => (
 )
 
 export const Header = ({routeToPath}) => (
-    <div className="h-100 bg-accent-light content-container">
-        <div className="content d-flex justify-content-between">
-            <div className="d-flex align-items-center h-full">
-                <img className="button" src={logo} style={{width: 185, height: 68}} onClick={() => routeToPath("/")}/>
-            </div>
-            <div className="navigation-buttons">
-                {buttons.map(button => ({name: button.name, onClick: () => routeToPath(button.path)})).map(Button).withSpace({width: 40})}
+    <div style={{position: "fixed", width: "100vw"}}>
+        <div className="h-100 bg-accent-light content-container">
+            <div className="content d-flex justify-content-between">
+                <div className="d-flex align-items-center h-full">
+                    <img className="button" src={logo} style={{width: 185, height: 68}} onClick={() => routeToPath("/")}/>
+                </div>
+                <div className="navigation-buttons">
+                    {buttons.map(button => ({name: button.name, onClick: () => routeToPath(button.path)})).map(Button).withSpace({width: 40})}
+                </div>
             </div>
         </div>
-
     </div>
 )

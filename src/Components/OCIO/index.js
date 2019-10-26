@@ -4,7 +4,7 @@ import { SectionHeader } from '../Section Header';
 export const OCIO = () => (
     <div className="d-flex flex-1 flex-direction-column">
         <SectionHeader name="OCIO"/>
-        <div className="content-container margin-top-120 margin-bottom-200">
+        <div className="content-container margin-top-100 margin-bottom-200">
             <div className="content flex-1 flex-direction-column">
                 <h2>Why choose The Global CIO Office for your OCIO?</h2>
                 <h4 className="margin-top-30 text-justify">

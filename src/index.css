@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Font */
 h1 {
-  font-size: 28px;
+  font-size: 46px;
 }
 
 h2 {
@@ -77,6 +77,10 @@ h6 {
 
 .accent2 {
   color: var(--accent2);
+}
+
+.accent3 {
+  color: var(--accent3);
 }
 
 .accent2-fill {

@@ -4,9 +4,9 @@ import { SectionHeader } from '../Section Header';
 export const Contact = () => (
     <div className="d-flex flex-1 flex-direction-column">
         <SectionHeader name="Contact"/>
-        <div className="content-container margin-top-120 margin-bottom-200">
+        <div className="content-container margin-top-100 margin-bottom-200">
             <div className="content d-flex layout-2-container">
-                <iframe width="100%" height={400} src="https://maps.google.com/maps?width=700&amp;height=440&amp;hl=en&amp;q=Purple%20Asset%20Management%20PTE.%20LTD%208%20Eu%20Tong%20Sen%20Street%2C%20%2317-84%20The%20Central%20Singapore%20059818+(Title)&amp;ie=UTF8&amp;t=&amp;z=13&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                <iframe style={{backgroundColor: "#E5E3DF"}} width="100%" height={400} src="https://maps.google.com/maps?width=700&amp;height=440&amp;hl=en&amp;q=Purple%20Asset%20Management%20PTE.%20LTD%208%20Eu%20Tong%20Sen%20Street%2C%20%2317-84%20The%20Central%20Singapore%20059818+(Title)&amp;ie=UTF8&amp;t=&amp;z=13&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
                 <div className="d-flex flex-direction-column layout-2-details" >
                     <div className="d-flex">
                         <div className="d-flex justify-content-center" style={{width: 23}}>

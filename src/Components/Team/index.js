@@ -61,7 +61,7 @@ const members = [
 export const Team = () => (
     <div className="d-flex flex-1 flex-direction-column">
         <SectionHeader name="Team"/>
-        <div className="content-container margin-top-20 margin-bottom-200">
+        <div className="content-container margin-bottom-200" style={{marginTop: -20}}>
             <div className="content flex-1 flex-direction-column">
                 {
                     members.map(Member)

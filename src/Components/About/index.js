@@ -7,7 +7,7 @@ export const About = () => (
         <SectionHeader name="About"/>
         <div className="content-container margin-bottom-200">
             <div className="content flex-1 flex-direction-column">
-                <video className="margin-top-120" width="100%" controls >
+                <video className="margin-top-100" width="100%" controls >
                     <source src={video} type="video/mp4"/>
                     Your browser does not support the video tag.
                 </video>

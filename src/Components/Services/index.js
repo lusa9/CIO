@@ -4,7 +4,7 @@ import { SectionHeader } from '../Section Header';
 export const Services = () => (
     <div className="d-flex flex-1 flex-direction-column">
         <SectionHeader name="Services"/>
-        <div className="content-container margin-top-120 margin-bottom-200">
+        <div className="content-container margin-top-100 margin-bottom-200">
             <div className="content flex-1 flex-direction-column">
                 <h2>The Global CIO Office</h2>
                 <h4 className="margin-top-30 text-justify">We provide outsourced Chief Investment Officer services and advisory services for External Asset Managers and Wealth Management businesses. High-quality investment advice and product platforms can be expensive to assemble, but your clients would expect nothing less. Much of what a wealth business needs are generic to the whole industry. Each business typically wants investment proposals, regular reports to share with clients, research on investment themes, quality strategic asset allocation and inputs on tactical asset allocation, no matter the scale of the business. Equally, you want to share the very best advice on product selection from mutual funds to structured products through to alternatives such as real estate. The crucial difference between The Global CIO Office and other investment advisory firms is that we give independent investment advice and we are not motivated by placing the in-house product with you. Our approach is to be genuinely independent of product providers.</h4>

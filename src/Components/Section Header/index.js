@@ -7,9 +7,3 @@ export const SectionHeader = ({name}) => (
         </div>
     </div>
 )
-
-export const PrevioustSectionHeader = ({name}) => (
-    <div className="w-full margin-top-100 d-flex align-items-center " >
-        <h2>{name}</h2>
-    </div>
-)

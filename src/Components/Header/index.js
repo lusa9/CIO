@@ -44,18 +44,6 @@ export const Header = ({routeToPath}) => (
                 {buttons.map(button => ({name: button.name, onClick: () => routeToPath(button.path)})).map(Button).withSpace({width: 40})}
             </div>
         </div>
-    </div>
-)
 
-export const PreviousHeader = ({routeToPath}) => (
-    <div className="h-100 d-flex content-container bg-accent-light w-full" style={{position: "fixed", zIndex: 1}}>
-        <div className="content d-flex justify-content-between">
-            <div className="d-flex align-items-center h-full">
-                <img className="button" src={logo} style={{width: 185, height: 68}} onClick={() => routeToPath("/")}/>
-            </div>
-            <div className="navigation-buttons">
-                {buttons.map(button => ({name: button.name, onClick: () => routeToPath(button.path)})).map(Button).withSpace({width: 40})}
-            </div>
-        </div>
     </div>
 )

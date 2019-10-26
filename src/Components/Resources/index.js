@@ -1,6 +1,4 @@
 import React from 'react';
-import { SectionHeader } from '../Section Header';
-import { Title } from '../Title';
 import resources from '../../assets/resources.jpg'
 
 import PoliticallyDrivenMarkets from './CIO Weekly - Politically Driven Markets.pdf'

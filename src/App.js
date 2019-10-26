@@ -24,7 +24,7 @@ class App extends React.Component {
         <div className="d-flex flex-direction-column" style={{minHeight: "100vh"}}>
         <Router ref={this.router}>
           <Header {...{routeToPath}}/>
-          <div className="flex-grow-1 d-flex">
+          <div className="flex-grow-1 d-flex margin-top-100">
               <Switch>
                 <Route exact path="/" component={Home} />
                 <Route exact path="/about" component={About} />

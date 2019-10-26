@@ -35,7 +35,7 @@ const Button = ({name, onClick}) => (
 )
 
 export const Header = ({routeToPath}) => (
-    <div className="h-100 d-flex">
+    <div className="h-100 d-flex w-full" style={{position: "fixed", zIndex: 1}}>
         <div className="bg-white h-100" style={{display: "flex", flex: 1, paddingLeft: 80}} />
         <div className="content bg-accent d-flex justify-content-between" style={{paddingRight: 80}}>
             <div className="d-flex align-items-center h-full bg-white padding-right-20">

@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "348e0c73ac8bbaf9ec99b58f11983455",
+    "revision": "672c1ec714e70ea9e50952a48a6f5d54",
     "url": "/CIO/index.html"
   },
   {
-    "revision": "707ef0aa18502c47aaec",
+    "revision": "5369d22fec2f0bba8f76",
     "url": "/CIO/static/css/main.bea8715c.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/CIO/static/js/2.7e356407.chunk.js"
   },
   {
-    "revision": "707ef0aa18502c47aaec",
-    "url": "/CIO/static/js/main.997051c8.chunk.js"
+    "revision": "5369d22fec2f0bba8f76",
+    "url": "/CIO/static/js/main.31ddce5d.chunk.js"
   },
   {
     "revision": "585022918ead83d6796f",
@@ -40,8 +40,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/CIO/static/media/CIO Weekly - The Lessons for the eurozone from Argentina.c4021be1.pdf"
   },
   {
-    "revision": "414d3bd0fefbebf66d8b68aaafb9bcb2",
-    "url": "/CIO/static/media/CIO weekly - Trade War Strategies.414d3bd0.pdf"
+    "revision": "201945e778e55f167ec0dbabf65f64b9",
+    "url": "/CIO/static/media/CIO weekly - Trade War Strategies.201945e7.pdf"
   },
   {
     "revision": "e6bddf72f31c36c75e76ee2cdde12f5f",

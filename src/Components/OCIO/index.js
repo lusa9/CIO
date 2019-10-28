@@ -11,9 +11,9 @@ export const OCIO = () => (
                     Our OCIO teams extensive investment expertise, robust research platform, and advanced technology and analytics are aligned in one single goal: helping clients achieve their investment objectives.<br/>
                     <br/>
                     We provide global institutional quality support to your investment office:<br/>
-                    •  Institutional quality global asset management<br/>
-                    •  Fiduciary services<br/>
-                    •  Unwavering objectivity<br/>
+                    • Institutional quality global asset management<br/>
+                    • Fiduciary services<br/>
+                    • Unwavering objectivity<br/>
                     <br/>
                     We sit on your side of the table.
                 </h4>

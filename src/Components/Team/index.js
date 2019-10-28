@@ -61,7 +61,7 @@ const members = [
 export const Team = () => (
     <div className="d-flex flex-1 flex-direction-column">
         <SectionHeader name="Team"/>
-        <div className="content-container margin-bottom-200" style={{marginTop: -20}}>
+        <div className="content-container margin-bottom-200" style={{marginTop: -110}}>
             <div className="content flex-1 flex-direction-column">
                 {
                     members.map(Member)
@@ -72,11 +72,11 @@ export const Team = () => (
 )
 
 const Member = ({image, title, description}) => (
-    <div className="d-flex align-items-start margin-top-120 member-image-title-description-container">
+    <div className="d-flex align-items-start item-margin-top member-image-title-description-container">
         <img src={image} alt={title}/>
         <div className="d-flex flex-direction-column member-title-description-container">
             <h2>{title}</h2>
-            <h4 className="margin-top-10 text-justify">{description}</h4>
+            <h4 className="margin-top-10">{description}</h4>
         </div>
     </div>
 )

@@ -56,7 +56,7 @@ export class Header extends React.Component {
         const {expandedButtons} = this.state
         const {onMenuButtonClick, routeToPath} = this
         return (
-            <div className="bg-accent-light" style={{position: "fixed", width: "100vw"}}>
+            <div className="bg-accent-light" style={{position: "fixed", width: "100vw", zIndex: 1}}>
                 <div className="content-container">
                     <div className="content d-flex flex-direction-column">
                         <div className="d-flex justify-content-between h-100">

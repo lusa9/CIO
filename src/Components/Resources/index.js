@@ -15,16 +15,16 @@ export const Resources = () => (
         </div>
         <div className="content-container margin-bottom-200">
             <div className="content flex-1 flex-direction-column">
-                <h2 className="margin-top-120">Newsletters</h2>
-                <h4 className="margin-top-30"><Bullet/><a href={PoliticallyDrivenMarkets}>Politically Driven Markets</a> - 30th September 2019</h4>
-                <h4><Bullet/><a href={QTtoQE}>QT to QE</a> - 23rd September 2019</h4>
-                <h4><Bullet/><a href={TakingNothingForGranted}>Taking Nothing for Granted</a> - 16th September 2019</h4>
-                <h4><Bullet/><a href={TradeWarStrategies}>Trade War Strategies</a> - 9th September 2019</h4>
-                <h4><Bullet/><a href={JeNeRegretRien}>Je ne regret rien</a> - 26th August 2019</h4>
-                <h4><Bullet/><a href={LessonsForTheEurozoneFromArgentina}>The Lessons for the eurozone from Argentina</a> - 19th August 2019</h4>
+                <h2 className="item-margin-top">Newsletters</h2>
+                <h4 className="description-margin-top"><Bullet/><a href={PoliticallyDrivenMarkets}>Politically Driven Markets</a> - 30th September 2019</h4>
+                <h4><Bullet/><a href={QTtoQE} className="resources-link">QT to QE</a> - 23rd September 2019</h4>
+                <h4><Bullet/><a href={TakingNothingForGranted} className="resources-link">Taking Nothing for Granted</a> - 16th September 2019</h4>
+                <h4><Bullet/><a href={TradeWarStrategies} className="resources-link">Trade War Strategies</a> - 9th September 2019</h4>
+                <h4><Bullet/><a href={JeNeRegretRien} className="resources-link">Je ne regret rien</a> - 26th August 2019</h4>
+                <h4><Bullet/><a href={LessonsForTheEurozoneFromArgentina} className="resources-link">The Lessons for the eurozone from Argentina</a> - 19th August 2019</h4>
     
-                <h2 className="margin-top-120">Articles</h2>
-                <h4 className="margin-top-30"><Bullet/><a href={"https://www.businesstimes.com.sg/investing-wealth/purple-asset-management-launches-ocio-services-for-asia-family-offices-wealth"}>Purple Asset Management launches OCIO services for Asia family offices, wealth managers</a> - The Business Times</h4>
+                <h2 className="item-margin-top ">Articles</h2>
+                <h4 className="description-margin-top"><Bullet/><a href={"https://www.businesstimes.com.sg/investing-wealth/purple-asset-management-launches-ocio-services-for-asia-family-offices-wealth"}>Purple Asset Management launches OCIO services for Asia family offices, wealth managers</a> - The Business Times</h4>
                 <h4><Bullet/><a href={"https://asianprivatebanker.com/industry/family-office-iam/purple-am-launches-third-party-cio-office-for-singapore-iams-wms"}>Purple AM launches third-party CIO office for Singapore IAMs, WMs</a> - Asian Private Banker</h4>
                 <h4><Bullet/><a href={"https://citywireasia.com/news/new-outsourced-cio-service-for-asia-middle-east-wealth-managers/a1272898?ref=international-asia-latest-news-list"}>New outsourced CIO service for Asia, Middle East wealth managers</a> - Citywire Asia</h4>
                 <h4><Bullet/><a href={"https://www.finews.asia/finance/29747-purple-am-launches-outsourced-chief-investment-officer-services-global-cio-office-gary-dugan-johan-jooste"}>Outsourced CIO Services Launched in Singapore</a> - Finews.asia</h4>

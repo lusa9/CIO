@@ -61,7 +61,7 @@ export class Header extends React.Component {
                     <div className="content d-flex flex-direction-column">
                         <div className="d-flex justify-content-between h-100">
                             <div className="d-flex align-items-center h-full">
-                                <img className="button" src={logo} style={{width: 185, height: 68}} onClick={() => routeToPath("/")}/>
+                                <img className="button" src={logo} style={{width: 185, height: 68}} onClick={() => routeToPath("/")} alt="logo"/>
                             </div>
                             <div className='h-full'>
                                 <div className="navigation-buttons h-full">

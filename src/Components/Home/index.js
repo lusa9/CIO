@@ -7,7 +7,7 @@ export const Home = () => (
         <div className="d-flex flex-direction-column align-items-center home-message-container bg-accent-light" style={{backgroundColor: "rgba(255, 255, 255, 0.8)", maxWidth: 889, width: "100%"}}>
             <div className="content-container">
                 <div className="content d-flex flex-direction-column align-items-center">
-                    <img src={logo} className="margin-top-60" style={{maxWidth: 527, width: "100%"}}/>
+                    <img src={logo} className="margin-top-60" style={{maxWidth: 527, width: "100%"}} alt="logo"/>
                     <h3 className="margin-top-30 accent margin-bottom-50 text-center">Your investment office starts here.</h3>
                 </div>
             </div>

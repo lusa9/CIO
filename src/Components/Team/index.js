@@ -73,7 +73,7 @@ export const Team = () => (
 
 const Member = ({image, title, description}) => (
     <div className="d-flex align-items-start margin-top-120 member-image-title-description-container">
-        <img src={image} />
+        <img src={image} alt={title}/>
         <div className="d-flex flex-direction-column member-title-description-container">
             <h2>{title}</h2>
             <h4 className="margin-top-10 text-justify">{description}</h4>

@@ -8,6 +8,7 @@ export const withSpace = ({ width, height }) => (previous, current) => [
     current,
 ];
 
+// eslint-disable-next-line
 Array.prototype.withSpace = function({ width, height }) {
     return this.reduce(withSpace({ width, height }));
 };

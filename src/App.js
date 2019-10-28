@@ -44,7 +44,10 @@ class App extends React.Component {
       )
   }
 
-  routeToPath = path => this.router.current.history.push(path)
+  routeToPath = path => {
+    this.router.current.history.push(path)
+    window.scrollTo(0, 0)
+  }
 }
 
 export default App;

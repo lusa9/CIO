@@ -9,10 +9,7 @@ export const About = () => (
         <SectionHeader name="About"/>
         <div className="content-container margin-bottom-200">
             <div className="content flex-1 flex-direction-column">
-                <video width="100%" controls>
-                    <source src={video} type="video/mp4"/>
-                    Your browser does not support the video tag.
-                </video>
+                <div style={{padding:"56.07% 0 0 0", position: "relative"}}><iframe src="https://player.vimeo.com/video/369670871?color=ffffff&title=0&byline=0&portrait=0" style={{position: "absolute", top:0, left:0, width: "100%", height: "100%"}} frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
                 <h2 className="item-margin-top">The Global CIO Office</h2>
                 <h4 className="description-margin-top">We are a truly independent provider of outsourced Chief Investment Officer (CIO) services for single and multi-family offices, and wealth management businesses. We have brought together a team of seasoned investment experts from various parts of the world to build out a business proposition suitable for Asia and the Middle East in the OCIO space. Our office is in Singapore operating under the umbrella of Purple Asset Management. Purple Asset Management (Purple) is a Singapore registered company regulated by the Monetary Authority of Singapore (MAS) having attained a Capital Markets Services (CMS) License.</h4>
                 <h2 className="item-margin-top">Our team of experts are globally recognised for their credibility, strong track record and extensive experience</h2>

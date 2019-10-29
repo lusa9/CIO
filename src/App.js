@@ -2,7 +2,12 @@ import React from 'react';
 import { Header } from './Components/Header'
 import { Footer } from './Components/Footer';
 import { Home } from './Components/Home';
-import {BrowserRouter as Router, Switch, Route, Redirect} from 'react-router-dom'
+import {
+  BrowserRouter as Router, 
+  Switch, 
+  Route, 
+  // Redirect
+} from 'react-router-dom'
 import { NotFound } from './Components/NotFound';
 import { About } from './Components/About';
 import { Legal } from './Components/Legal';

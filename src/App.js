@@ -26,7 +26,7 @@ class App extends React.Component {
           <Router ref={this.router}>
             <div className="flex-grow-1 d-flex margin-top-100">
                 <Switch>
-                  <Route exact path="/CIO/" component={() => <Redirect to="/" />} />
+                  {/* <Route exact path="/CIO/" component={() => <Redirect to="/" />} /> */}   
                   <Route exact path="/" component={Home} />
                   <Route exact path="/about" component={About} />
                   <Route exact path="/ocio" component={OCIO} />

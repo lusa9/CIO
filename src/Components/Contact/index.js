@@ -1,8 +1,10 @@
 import React from 'react';
 import { SectionHeader } from '../Section Header';
+import { Helmet } from 'react-helmet';
 
 export const Contact = () => (
     <div className="d-flex flex-1 flex-direction-column">
+        <Helmet title="Contact"/>
         <SectionHeader name="Contact"/>
         <div className="content-container margin-bottom-200">
             <div className="content d-flex layout-2-container">
@@ -14,7 +16,7 @@ export const Contact = () => (
                         </div>
                         <div className="margin-left-20">
                             <h4 style={{lineHeight: "20px"}}>Purple Asset Management PTE. LTD</h4>
-                            <h4 style={{lineHeight: "20px"}}>8 Eu Tong Sen Street, #17-84</h4>
+                            <h4 style={{lineHeight: "20px"}}>8 Eu Tong Sen Street, #17-82</h4>
                             <h4 style={{lineHeight: "20px"}}>The Central</h4>
                             <h4 style={{lineHeight: "20px"}}>Singapore 059818</h4>
                         </div>

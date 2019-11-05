@@ -9,6 +9,7 @@ import luka from '../../assets/luka.jpg'
 import javed from '../../assets/javed.jpg'
 import johan from '../../assets/johan.jpg'
 import placeholder from '../../assets/placeholder.jpg'
+import { Helmet } from 'react-helmet';
 
 const members = [
     {
@@ -59,16 +60,19 @@ const members = [
 ]
 
 export const Team = () => (
-    <div className="d-flex flex-1 flex-direction-column">
-        <SectionHeader name="Team"/>
-        <div className="content-container margin-bottom-200" style={{marginTop: -110}}>
-            <div className="content flex-1 flex-direction-column">
-                {
-                    members.map(Member)
-                }
+    <React.Fragment>
+        <Helmet title="Team"/>
+        <div className="d-flex flex-1 flex-direction-column">
+            <SectionHeader name="Team"/>
+            <div className="content-container margin-bottom-200" style={{marginTop: -110}}>
+                <div className="content flex-1 flex-direction-column">
+                    {
+                        members.map(Member)
+                    }
+                </div>
             </div>
         </div>
-    </div>
+    </React.Fragment>
 )
 
 const Member = ({image, title, description}) => (

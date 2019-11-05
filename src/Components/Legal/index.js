@@ -4,7 +4,7 @@ import { Helmet } from 'react-helmet';
 
 export const Legal = () => (
     <React.Fragment>
-        <Helmet title="Legal"/>
+        <Helmet title="Legal Notice"/>
         <div className="d-flex flex-1 flex-direction-column">
             <SectionHeader name="Legal Notice"/>
             <div className="content-container">

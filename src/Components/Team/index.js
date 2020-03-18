@@ -1,12 +1,13 @@
 import React from "react";
 import { SectionHeader } from "../Section Header";
 import gary from "../../assets/gary.jpg";
+import johan from "../../assets/johan.jpg";
+import rainer from "../../assets/rainer.jpg";
 import bill from "../../assets/bill.jpg";
 import mark from "../../assets/mark.jpg";
 import sam from "../../assets/sam.jpg";
 import luka from "../../assets/luka.jpg";
 import javed from "../../assets/javed.jpg";
-import johan from "../../assets/johan.jpg";
 import placeholder from "../../assets/placeholder.jpg";
 import { Helmet } from "react-helmet";
 
@@ -22,6 +23,12 @@ const members = [
     title: "Johan Jooste - Managing Director",
     description:
       "Johan started his career in banking as a currency and interest rates analyst in Johannesburg in 1994. After stints trading currency and managing South African bond portfolio’s, he relocated to the UK in 2001, managing global fixed income portfolios for institutional clients before switching course and joining Merrill Lynch Private Wealth Management in 2008. In this role, which was subsumed into Julius Baer in 2014, Johan was successively entrusted with Fixed Income management (Merrill Lynch) and thereafter overall strategy as CIO: UK for the Julius Baer business. In 2016 Johan relocated to Singapore to take up the role of CIO at Bank of Singapore, before joining Purple Asset Management in 2019 as Managing Director."
+  },
+  {
+    image: rainer,
+    title: "Rainer Michael Preiss - Chief Investment Officer – Equity",
+    description:
+      "Previously Portfolio Strategist at a Family Office in Singapore and prior to that Chief Equity Strategist at Standard Chartered Bank, Mr. Preiss was a member of the bank’s Global Investment Council where he was responsible for the” house-view” on Equities. Mr. Preiss has 25 years experience in global financial markets have worked in London, Paris, Hong Kong, Middle East and Africa and Singapore in various investment and research functions. Mr. Preiss is a graduate of the European Business School with a major in Finance and international economics, having studied at the schools centers in London, Paris and Bologna, Italy in the respective local languages. In addition he studied in Japan, Korea, and China. Mr. Preiss has taught extensively on Finance and Wealth Management in Asia, Middle East and Africa. Mr. Preiss has also been invited to teach and has designed courses for The Graduate School of The People's Bank of China, China's Central Bank and is currently an Adjunct Researcher at Singapore’s  NTU – Nanyang Technology University Centre of African Studies.  The mandate of the NTU-SBF Centre for African Studies (CAS) is to develop awareness of Africa as an investment destination, and to develop thought leadership and capacity for doing business in Africa. Previously he was advisor and founding member of the Asian Bond Market Forum an initiative by the Thai Ministry of Finance.  Mr. Preiss is also a frequent contributor to International media like CNBC and Bloomberg TV and a Columnist for FORBES Magazine."
   },
   {
     image: bill,

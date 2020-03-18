@@ -44,7 +44,7 @@ const members = [
   },
   {
     image: placeholder,
-    title: "Christopher Grune, CFA, PRM, CQF, PRM, FIA - CIO Consultant",
+    title: "Christopher Grune, CFA, PRM, CQF, FIA - CIO Consultant",
     description:
       "He is an experienced finance professional with over twenty years’ experience in the markets and over ten years’ experience dealing with emerging and frontier markets. He is a practitioner in derivatives and quant strategies and has applied these in regions where these skills and capabilities tend to be very thin or nearly non-existent. He spearheaded State Street Global Advisor’s (SSgA) first investments into Sub-Saharan (ex-South Africa) Africa more than 10 years ago, managing about $1 billion in emerging market assets with more than half allocated to Africa. He has experience trading and investing in over 50 countries worldwide. He has published articles, appeared on national television and spoken at numerous investment conferences. He built equity risk models at Citi in both Japan and the US. He also sits on a governance committee for the Nairobi Securities Exchange, is on the board of directors for the CFA Society of East Africa and is president of the Columbia Alumni Association of Kenya. He obtained his MBA from Columbia Business School in New York, is a CFA Charterholder, has completed Fitch Learning/Paul Wilmott’s Certificate in Quantitative Finance course, has the Professional Risk Manager (PRM) designation and is certified as a SIIA Financial Information Associate (FIA)."
   },

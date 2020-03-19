@@ -86,6 +86,45 @@ const newsletters = [
   }
 ];
 
+const articles = [
+  {
+    name: "Investors not pricing the return of inflation",
+    author: "The Global CIO Office",
+    link:
+      "https://citywireasia.com/news/investors-not-pricing-the-return-of-inflation-the-global-cio-office/a1319739"
+  },
+  {
+    name: "Singapore-based CIO service sees family office demand",
+    link:
+      "https://citywireasia.com/news/singapore-based-cio-service-sees-family-office-demand/a1318958"
+  },
+  {
+    name:
+      "Purple Asset Management launches OCIO services for Asia family offices, wealth managers",
+    author: "The Business Times",
+    link:
+      "https://www.businesstimes.com.sg/investing-wealth/purple-asset-management-launches-ocio-services-for-asia-family-offices-wealth"
+  },
+  {
+    name: "Purple AM launches third-party CIO office for Singapore IAMs, WMs",
+    author: "Asian Private Banker",
+    link:
+      "https://asianprivatebanker.com/industry/family-office-iam/purple-am-launches-third-party-cio-office-for-singapore-iams-wms"
+  },
+  {
+    name: "New outsourced CIO service for Asia, Middle East wealth managers",
+    author: "Citywire Asia",
+    link:
+      "https://citywireasia.com/news/new-outsourced-cio-service-for-asia-middle-east-wealth-managers/a1272898?ref=international-asia-latest-news-list"
+  },
+  {
+    name: "Outsourced CIO Services Launched in Singapore",
+    author: "Finews.asia",
+    link:
+      "https://www.finews.asia/finance/29747-purple-am-launches-outsourced-chief-investment-officer-services-global-cio-office-gary-dugan-johan-jooste"
+  }
+];
+
 export const Resources = () => (
   <React.Fragment>
     <Helmet title="Resources" />
@@ -103,53 +142,8 @@ export const Resources = () => (
         <div className="content flex-1 flex-direction-column">
           <h2 className="item-margin-top">Newsletters</h2>
           {newsletters.map(Newsletter)}
-
           <h2 className="item-margin-top ">Articles</h2>
-          <h4 className="description-margin-top">
-            <Bullet />
-            <a
-              href={
-                "https://www.businesstimes.com.sg/investing-wealth/purple-asset-management-launches-ocio-services-for-asia-family-offices-wealth"
-              }
-            >
-              Purple Asset Management launches OCIO services for Asia family
-              offices, wealth managers
-            </a>{" "}
-            - The Business Times
-          </h4>
-          <h4>
-            <Bullet />
-            <a
-              href={
-                "https://asianprivatebanker.com/industry/family-office-iam/purple-am-launches-third-party-cio-office-for-singapore-iams-wms"
-              }
-            >
-              Purple AM launches third-party CIO office for Singapore IAMs, WMs
-            </a>{" "}
-            - Asian Private Banker
-          </h4>
-          <h4>
-            <Bullet />
-            <a
-              href={
-                "https://citywireasia.com/news/new-outsourced-cio-service-for-asia-middle-east-wealth-managers/a1272898?ref=international-asia-latest-news-list"
-              }
-            >
-              New outsourced CIO service for Asia, Middle East wealth managers
-            </a>{" "}
-            - Citywire Asia
-          </h4>
-          <h4>
-            <Bullet />
-            <a
-              href={
-                "https://www.finews.asia/finance/29747-purple-am-launches-outsourced-chief-investment-officer-services-global-cio-office-gary-dugan-johan-jooste"
-              }
-            >
-              Outsourced CIO Services Launched in Singapore
-            </a>{" "}
-            - Finews.asia
-          </h4>
+          {articles.map(Article)}
         </div>
       </div>
     </div>
@@ -165,5 +159,13 @@ const Newsletter = ({ file, name, date }, index) => (
       {name}
     </a>
     {date && ` - ${date}`}
+  </h4>
+);
+
+const Article = ({ name, author, link }, index) => (
+  <h4 className={index === 0 && "description-margin-top"}>
+    <Bullet />
+    <a href={link}>{name}</a>
+    {author && ` - ${author}`}
   </h4>
 );

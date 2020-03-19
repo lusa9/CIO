@@ -1,12 +1,5 @@
 import React from "react";
 import resources from "../../assets/resources.jpg";
-
-import PoliticallyDrivenMarkets from "./CIO Weekly - Politically Driven Markets.pdf";
-import QTtoQE from "./CIO Weekly - QT to QE.pdf";
-import TakingNothingForGranted from "./CIO Weekly - Taking Nothing for Granted.pdf";
-import TradeWarStrategies from "./CIO weekly - Trade War Strategies.pdf";
-import JeNeRegretRien from "./CIO Weekly - Je ne regret rien.pdf";
-import LessonsForTheEurozoneFromArgentina from "./CIO Weekly - The Lessons for the eurozone from Argentina.pdf";
 import { Helmet } from "react-helmet";
 
 const newsletters = [
